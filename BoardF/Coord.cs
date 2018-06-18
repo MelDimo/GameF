@@ -13,7 +13,7 @@ namespace BoardF
             this.y = y;
         }
 
-        public Coord(int size)
+        public Coord(int size) // create last cell in board
         {
             x = size - 1;
             y = size - 1;
